@@ -4,7 +4,11 @@ description = "A simple command-line app that lists the contents of the PATH env
 version = "0.1.0"
 edition = "2021"
 rust-version = "1.65"
-repository = ""
+homepage = "https://github.com/clementi/lspath"
+repository = "https://github.com/clementi/lspath"
+license = "MIT"
+license-file = "LICENSE"
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.0.26", features = ["derive"] }
