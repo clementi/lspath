@@ -1,6 +1,6 @@
 [package]
 name = "lspath-paged"
-description = "A simple command-line app that lists the contents of the PATH environment variable"
+description = "A simple command-line app that lists the contents of the PATH environment variable, with optional paging"
 version = "0.1.0"
 edition = "2021"
 rust-version = "1.65"
