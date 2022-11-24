@@ -7,7 +7,6 @@ rust-version = "1.65"
 homepage = "https://github.com/clementi/lspath"
 repository = "https://github.com/clementi/lspath"
 license = "MIT"
-license-file = "LICENSE"
 readme = "README.md"
 
 [dependencies]
