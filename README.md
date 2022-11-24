@@ -17,3 +17,19 @@ $ cargo install lspath-paged
 ### Binaries
 
 See the [Releases](https://github.com/clementi/lspath/releases) page.
+
+## Usage
+
+```
+Usage: lspath [OPTIONS]
+
+Options:
+  -p, --page
+          Page output
+
+  -h, --help
+          Print help information (use `-h` for a summary)
+
+  -V, --version
+          Print version information
+```
