@@ -1,0 +1,11 @@
+[package]
+name = "lspath"
+description = "A simple command-line app that lists the contents of the PATH environment variable"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.65"
+repository = ""
+
+[dependencies]
+clap = { version = "4.0.26", features = ["derive"] }
+minus = { version = "5.1.0", features = ["static_output", "search"] }
