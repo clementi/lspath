@@ -1,5 +1,5 @@
 [package]
-name = "lspath"
+name = "lspath-paged"
 description = "A simple command-line app that lists the contents of the PATH environment variable"
 version = "0.1.0"
 edition = "2021"
@@ -8,6 +8,12 @@ homepage = "https://github.com/clementi/lspath"
 repository = "https://github.com/clementi/lspath"
 license = "MIT"
 readme = "README.md"
+keywords = ["lspath", "command-line"]
+categories = ["command-line-utilities"]
+
+[[bin]]
+name = "lspath"
+path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4.0.26", features = ["derive"] }
