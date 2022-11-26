@@ -14,7 +14,7 @@ struct Args {
 fn main() -> Result<(), Box<dyn Error>> {
     let args = Args::parse();
 
-    let key = "PATHY";
+    let key = "PATH";
     match env::var(key) {
         Ok(paths) => {
             let path_items = env::split_paths(&paths);
