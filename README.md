@@ -1,5 +1,7 @@
 # lspath
 
+![Crates.io](https://img.shields.io/crates/v/lspath-paged)
+
 A command-line app that lists the contents of the PATH environment variable, with optional paging.
 
 ## Installation
