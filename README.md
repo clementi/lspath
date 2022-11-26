@@ -1,6 +1,6 @@
 # lspath
 
-[![CICD](https://github.com/clementi/lspath/actions/workflows/rust.yml/badge.svg)](https://github.com/clementi/lspath/actions/workflows/rust.yml)
+[![CICD](https://github.com/clementi/lspath/actions/workflows/ci.yml/badge.svg)](https://github.com/clementi/lspath/actions/workflows/ci.yml)
 [![Crates.io](https://img.shields.io/crates/v/lspath-paged)](https://crates.io/crates/lspath-paged)
 
 A command-line app that lists the contents of the PATH environment variable, with optional paging.
