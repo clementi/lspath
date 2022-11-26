@@ -1,6 +1,7 @@
 use clap::Parser;
-use minus::{MinusError, Pager};
+use minus::Pager;
 use std::env;
+use std::error::Error;
 use std::fmt::Write;
 
 #[derive(Parser)]
@@ -10,10 +11,10 @@ struct Args {
     page: bool,
 }
 
-fn main() -> Result<(), MinusError> {
+fn main() -> Result<(), Box<dyn Error>> {
     let args = Args::parse();
 
-    let key = "PATH";
+    let key = "PATHY";
     match env::var(key) {
         Ok(paths) => {
             let path_items = env::split_paths(&paths);
@@ -32,7 +33,7 @@ fn main() -> Result<(), MinusError> {
         }
         Err(e) => {
             eprintln!("Could not get {}: {}", key, e);
-            Ok(())
+            Err(Box::new(e))
         }
     }
 }
